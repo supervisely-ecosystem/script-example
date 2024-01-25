@@ -16,6 +16,9 @@
   "autoDocstring.docstringFormat": "sphinx",
   "debug.inlineValues": "off",
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+        },
   }
 }

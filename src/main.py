@@ -1,7 +1,6 @@
 import os
 
 import supervisely as sly
-
 from dotenv import load_dotenv
 
 # Ensure that supervisely.env contains SERVER_ADDRESS and API_TOKEN.
