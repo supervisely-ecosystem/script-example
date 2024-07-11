@@ -19,6 +19,8 @@ if [ ! -d ".venv" ]; then
     exit 1
 fi
 
+cd "$current_dir"
+
 site_packages_dir=$(find .venv/lib -type d -name "site-packages" -print -quit)
 
 if [ -z "$site_packages_dir" ]; then
