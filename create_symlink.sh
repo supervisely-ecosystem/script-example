@@ -14,12 +14,13 @@ else
     git clone https://github.com/supervisely/supervisely.git
 fi
 
+
+cd "$current_dir"
+
 if [ ! -d ".venv" ]; then
     echo "Error: .venv directory not found, please execute sh create_venv.sh first."
     exit 1
 fi
-
-cd "$current_dir"
 
 site_packages_dir=$(find .venv/lib -type d -name "site-packages" -print -quit)
 
